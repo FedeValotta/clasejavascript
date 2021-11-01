@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+/* Atrapados en la magia es un servicio de Agentes de Viajes de Disney y Universal.
+Los precios de sus tickets rondan en los 130 dólares por persona y 110 dólares para menores.
+La idea es que a través de esta app, calcular cuánto sería el total en dólares. */
+
+let cantidadTicketsMayores = prompt("¿Cuántos mayores de edad viajarán?");
+let cantidadTicketsMenores = prompt("¿Cuántos menores de edad viajarán?");
+const precioTicketsMayores = 130;
+const precioTicketsMenores = 110;
+
+console.log("Los tickets de Disney para Mayores salen " + precioTicketsMayores + " USD. En su familia viajan " + cantidadTicketsMayores + " mayores.");
+console.log("Los tickets de Disney para Menores salen " + precioTicketsMenores + " USD. En su familia viajan " + cantidadTicketsMenores + " menores.");
+
+// Precio tickets Mayores
+let totalTicketsMayores = cantidadTicketsMayores * precioTicketsMayores;
+console.log("Total Mayores: " + totalTicketsMayores);
+
+// Precio tickets Mayores
+let totalTicketsMenores = cantidadTicketsMenores * precioTicketsMenores;
+console.log("Total Menores: " + totalTicketsMenores);
+
+// Precio total
+let totalFinal = totalTicketsMayores + totalTicketsMenores;
+console.log("Total: " + totalFinal + " USD");
+    </script>
+</body>
+</html>
