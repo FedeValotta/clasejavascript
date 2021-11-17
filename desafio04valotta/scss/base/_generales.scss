@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* LISTA */
+  
+  $color-texto: rgb(52, 99, 187);
+  $color-upper: darkorange; 
+  $h1: 30px;
+  $h2: 30px;
+  $h3: 20px;
+
+
+  /* ESTILOS GENERALES */
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: $color-texto;
+  }
+
+  h1, h2, h3, h6 {
+    font-size: $h1;
+    margin: 40px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  footer {
+    bottom: 0;
+  }
+  
+  .col:hover {
+    filter: brightness(110%);
+  }
+  
+  
+
+
+
+ 
