@@ -1,0 +1,24 @@
+.portada-destinos {
+    display: flex;
+    margin: 0 50px;
+    justify-content: center;
+        
+        img {
+        border-radius: 20px;
+        }
+    
+    }
+    
+    
+    .texto-destinos, .texto-destinos-2 {
+      font-size: 20px;
+      margin: 50px 25%;
+    }
+    
+    .fotos-destinos {
+      display: flex;
+      
+      img {
+          width: 50%;
+      }
+    }
